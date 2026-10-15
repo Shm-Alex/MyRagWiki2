@@ -1,0 +1,86 @@
+﻿<SnippetCompilerProject  CompilerVersion="v3.5">
+	<Code><![CDATA[
+using System;
+using System.Diagnostics;
+using System.Collections;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Windows.Forms;
+using Framework.Utils;
+using Framework.WinCore.Classes;
+using Ksema.Framework;
+using Ksema.Framework.Diagnostics;
+using Ksema.MetaModels.SHART.Shart2OLTP;
+using Ksema.ObjectModel;
+using Ksema.ObjectModel.ContextModel;
+using Ksema.ObjectShell;
+using Ksema.SHART.ObjectShell;
+using Shart.ModelDef;
+using Shart.Service.AccessControl;
+using Shart.Service.Client;
+using Shart.Service.Client.AccessControl;
+using Shart.Service.Client.MetaData;
+using Shart.Service.Client.Navigation;
+using Shart.Service.Events;
+using Shart.Service.Factory;
+using Shart.Service.Shared;
+using Shart.Service.Shared.Events;
+using Shart.Service.Shared.ImportExportOps;
+using Shart.Shared.ContextModel;
+using System.Threading;
+using Nbrb.Shared;
+using JobServer;
+using JobServer.Tasks.Visualization;
+using Nbrb.Shared.Settings;
+using System.ComponentModel;
+using Framework.Schedule;
+using System.Transactions;
+
+public class MyClass
+{
+	public static void Main()
+	{
+
+		Trace.WriteLine("Hello Snipped World! ");
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></Code>
+	<ReferencedAssemblies>
+		<Assembly>mscorlib.dll</Assembly>
+		<Assembly>System.dll</Assembly>
+		<Assembly>System.Data.dll</Assembly>
+		<Assembly>System.Drawing.dll</Assembly>
+		<Assembly>System.Xml.dll</Assembly>
+		<Assembly>System.Core.dll</Assembly>
+		<Assembly>System.Xml.Linq.dll</Assembly>
+		<Assembly>System.Windows.Forms.dll</Assembly>
+		<Assembly>System.Configuration.dll</Assembly>
+		<Assembly>System.Transactions.dll</Assembly>
+  </ReferencedAssemblies>
+</SnippetCompilerProject>

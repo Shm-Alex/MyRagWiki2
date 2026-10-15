@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{54BCA629-ABE6-4EA4-9745-E68C0557D7F2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Ksema.Framework</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ksema.Framework</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/Ksema.Framework/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C5, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ExtLib\C5\bin\C5.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\extlib\Newtonsoft.Json\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.5.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\extlib\NPOI.2.5.1\lib\net40\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML, Version=2.5.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\extlib\NPOI.2.5.1\lib\net40\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net, Version=2.5.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\extlib\NPOI.2.5.1\lib\net40\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats, Version=2.5.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\extlib\NPOI.2.5.1\lib\net40\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="Castle.Core, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ExtLib\Castle\net4\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ExtLib\Castle\net4\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ExtLib\SharpZipLib\Bin.net4\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TextTemplating, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\..\extlib\MS.VS.TT\v9\Microsoft.VisualStudio.TextTemplating.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.CoreEx, Version=1.0.2856.104, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ExtLib\ReactiveFramework\System.CoreEx.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.OracleClient">
+      <Name>System.Data.OracleClient</Name>
+    </Reference>
+    <Reference Include="System.Reactive, Version=1.0.2856.104, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ExtLib\ReactiveFramework\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="XmlToPlainText">
+      <HintPath>..\..\extlib\xsltTemplates\XmlToPlainText.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveTemplate\core.cs" />
+    <Compile Include="ActiveTemplate\parser.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Async\AsyncCommand.cs" />
+    <Compile Include="Async\AsyncCommandGroup.cs" />
+    <Compile Include="Async\AsyncHelper.cs" />
+    <Compile Include="Async\DelegateAccessUnitCommand.cs" />
+    <Compile Include="Async\DelegateCommand.cs" />
+    <Compile Include="Caching\TimerDataCacheDependency.cs" />
+    <Compile Include="Collections\DispatcherCollection.cs" />
+    <Compile Include="Collections\LightWeakDictionary.cs" />
+    <Compile Include="Configuration\ConfigurationHelper.cs" />
+    <Compile Include="Enumerable\EnumerableExtensions.cs" />
+    <Compile Include="HyperLinks\HTMLParser.cs" />
+    <Compile Include="Misc\DispatcherPropertyChangedHelper.cs" />
+    <Compile Include="Misc\IDialogService.cs" />
+    <Compile Include="Misc\IObservableNotifyPropertyChanged.cs" />
+    <Compile Include="Navigation\INavigationManager.cs" />
+    <Compile Include="Navigation\INavigationNode.cs" />
+    <Compile Include="Navigation\INavigationNodeProvider.cs" />
+    <Compile Include="Navigation\NavigationNodeState.cs" />
+    <Compile Include="Navigation\NavigationState.cs" />
+    <Compile Include="Misc\PerfTimer.cs" />
+    <Compile Include="Reactive\Event\DefaultEventPublisher.cs" />
+    <Compile Include="Reactive\Event\EventPublisherExtensions.cs" />
+    <Compile Include="Reactive\Event\IEventPublisher.cs" />
+    <Compile Include="Reactive\Event\WeakEventPublisher.cs" />
+    <Compile Include="Reactive\ExpressionExtensions.cs" />
+    <Compile Include="Reactive\ReactiveExtensions.cs" />
+    <Compile Include="Reactive\ReactiveExtensionsWeak.cs" />
+    <Compile Include="Reactive\WeakSubject.cs" />
+    <Compile Include="Schedule\DailyCS.cs" />
+    <Compile Include="Schedule\HourlyCS.cs" />
+    <Compile Include="Schedule\MonthlyCS.cs" />
+    <Compile Include="Schedule\WeeklyCS.cs" />
+    <Compile Include="Serializers\CsvPretty.cs" />
+    <Compile Include="Serializers\JSONConv.cs" />
+    <Compile Include="Serializers\SerializerN.cs" />
+    <Compile Include="ServiceFactory\AsyncOperationContext.cs" />
+    <Compile Include="Caching\caching.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Caching\datacache.cs" />
+    <Compile Include="Caching\DataCacheBase.cs" />
+    <Compile Include="Caching\DictionaryDataCache.cs" />
+    <Compile Include="Caching\FileCache.cs" />
+    <Compile Include="Caching\LazyInitValue.cs" />
+    <Compile Include="Caching\MapDataCache.cs" />
+    <Compile Include="Caching\SingleItemDataCache.cs" />
+    <Compile Include="Caching\TableDataCacheBase.cs" />
+    <Compile Include="Collections\C5MultiHashDictionary.cs" />
+    <Compile Include="Collections\CollectionUtils.cs" />
+    <Compile Include="Collections\CollectionSplitter.cs" />
+    <Compile Include="Collections\CollectionWithEvents.cs" />
+    <Compile Include="Collections\CompositeComparer.cs" />
+    <Compile Include="Collections\Deque.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Events.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\GenericComparer.cs" />
+    <Compile Include="Collections\Inner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\ItemCollection.cs" />
+    <Compile Include="Collections\Iterators.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\List.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\MultiIndexed.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\nndictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Pair.cs" />
+    <Compile Include="Collections\ReadOnlyCollection.cs" />
+    <Compile Include="Collections\ReadOnlyDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\SerializableDictionary.cs" />
+    <Compile Include="Collections\Set.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Transposition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\Tree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\treebase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\TwoWayDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Collections\WeakDictionary.cs" />
+    <Compile Include="Configuration\Config.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\ConStrMapping\IConnectionMappingProvider.cs" />
+    <Compile Include="Database\DataReaderExtensions.cs" />
+    <Compile Include="Database\DBUtils.cs" />
+    <Compile Include="Debug\WaitForServerStartup.cs" />
+    <Compile Include="Diagnostics\DiagCore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Diagnostics\EventLogTraceListenerEx.cs">
+    </Compile>
+    <Compile Include="Diagnostics\ImplMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Diagnostics\ImplStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Diagnostics\LogFileTasks.cs" />
+    <Compile Include="Diagnostics\LogFileListener.cs" />
+    <Compile Include="Diagnostics\ModifiedTextWriterTraceListener.cs" />
+    <Compile Include="Diagnostics\TraceData.cs" />
+    <Compile Include="Diagnostics\TraceOpScope.cs" />
+    <Compile Include="Diagnostics\TraceSourceAttribute.cs" />
+    <Compile Include="Diagnostics\TraceSourceBase.cs" />
+    <Compile Include="Diagnostics\Tracer.cs" />
+    <Compile Include="Documentation\Attributes.cs" />
+    <Compile Include="Documentation\DocumentationData.cs" />
+    <Compile Include="Documentation\DocumentationManager.cs" />
+    <Compile Include="DynamicInterface\DynamicInterface.cs" />
+    <Compile Include="Exceptions\MethodResult.cs" />
+    <Compile Include="Exceptions\MethodResultException.cs" />
+    <Compile Include="HyperLinks\HyperLinkHelper.cs" />
+    <Compile Include="LogsArchive\ILogSource.cs" />
+    <Compile Include="Caching\ContextCache\ContextCacheManager.cs" />
+    <Compile Include="Misc\HashCodeHelper.cs" />
+    <Compile Include="Misc\MatchingHelper.cs" />
+    <Compile Include="Misc\PropertyChangedHelper.cs" />
+    <Compile Include="Misc\TTHostBase.cs" />
+    <Compile Include="Configuration\ObjectContainer.cs" />
+    <Compile Include="ServiceFactory\Server\ExtensionModule.cs" />
+    <Compile Include="ServiceFactory\Server\ModuleInfo.cs" />
+    <Compile Include="ServiceFactory\Server\ModuleInfoCatalog.cs" />
+    <Compile Include="ServiceFactory\Server\RuntimeModuleHolder.cs" />
+    <Compile Include="ServiceFactory\Server\RuntimeModuleStorage.cs" />
+    <Compile Include="ServiceFactory\Server\SponsorshipManager.cs" />
+    <Compile Include="Localization\Localizer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Macro\MacroBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Macro\macrofunchost.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Macro\MacroManagerWrapper.cs" />
+    <Compile Include="Macro\MacroParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Macro\ParsingStructure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Macro\StandardMacro.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Schedule\schedules.cs" />
+    <Compile Include="Service\base_services.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Service\multiservice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Service\servicecore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sgml\SgmlParser.cs" />
+    <Compile Include="Sgml\SgmlReader.cs" />
+    <Compile Include="SnippetCompiler\SnippetCompilerController.cs" />
+    <Compile Include="SnippetCompiler\SnippetCompilerProject.cs" />
+    <Compile Include="Tasks\ParallelHelperOfTree.cs" />
+    <Compile Include="Tasks\ParallelHelper.cs" />
+    <Compile Include="Tasks\StaTaskScheduler.cs" />
+    <Compile Include="Tasks\DeferredTask.cs" />
+    <Compile Include="Tasks\TaskExportTickProcesInfo.cs" />
+    <Compile Include="Tasks\TaskSchedulers.cs" />
+    <Compile Include="Utils\ActivityScopeBase.cs" />
+    <Compile Include="Utils\AppCore.cs" />
+    <Compile Include="Utils\apputils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\CheckedItem.cs" />
+    <Compile Include="Utils\CheckWorktime.cs" />
+    <Compile Include="Utils\coll_utils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\Compressor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\ConcurrentHashSet.cs" />
+    <Compile Include="Utils\ConfigurationUtils.cs" />
+    <Compile Include="Utils\Crypt.cs" />
+    <Compile Include="Utils\datacache.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\DateTime.cs" />
+    <Compile Include="Exceptions\ExceptionHelper.cs" />
+    <Compile Include="Utils\Exceptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\Export2CSV.cs" />
+    <Compile Include="Utils\GetRespFromService.cs" />
+    <Compile Include="Utils\IdentityUtils.cs" />
+    <Compile Include="Utils\LinqExtensions.cs" />
+    <Compile Include="Utils\MoneyUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\NbrbReflectionUtils.cs" />
+    <Compile Include="Utils\ObjectLookupCache.cs" />
+    <Compile Include="Utils\objectparser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\ObjectURI.cs" />
+    <Compile Include="Utils\PropertyExtension.cs" />
+    <Compile Include="Utils\RefEditorClipboard.cs" />
+    <Compile Include="Utils\RegistryUtils.cs" />
+    <Compile Include="Utils\SimpleScopeBase.cs" />
+    <Compile Include="Utils\stringutils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\TimeoutHelper.cs" />
+    <Compile Include="Utils\TypeUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\Utils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\AssertUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ModelView\AccessUnitModelViewBase.cs" />
+    <Compile Include="ModelView\DummyAccesUnit.cs" />
+    <Compile Include="ModelView\Contracts\AccessUnitProviderHelper.cs" />
+    <Compile Include="ModelView\Contracts\IAccessUnit.cs" />
+    <Compile Include="ModelView\Contracts\IAccessUnitModeProvider.cs" />
+    <Compile Include="ModelView\Contracts\IDataWrapper.cs" />
+    <Compile Include="ModelView\Contracts\IDataWrapperProvider.cs" />
+    <Compile Include="ModelView\DataWrapper\DataWrapper.cs" />
+    <Compile Include="ModelView\DataWrapper\ValidationWrapper.cs" />
+    <Compile Include="ModelView\IMVPropertyProvider.cs" />
+    <Compile Include="ModelView\ModelViewBase.cs" />
+    <Compile Include="ModelView\Validation\IValidationErrorProvider.cs" />
+    <Compile Include="ModelView\Validation\ValidationError.cs" />
+    <Compile Include="Utils\ExportToXLSX.cs" />
+    <Compile Include="Utils\XsltMng.cs" />
+    <Compile Include="Utils\ZipC.cs" />
+    <Compile Include="WeakEvent\WeakEventHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\string.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\string.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SnippetCompiler\snippetcompiler.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Target Name="GenSerializationAssembly" Inputs="$(MSBuildAllProjects);@(IntermediateAssembly)" Outputs="$(OutDir)$(_SGenDllName)">
+  </Target>
+  <Target Name="AfterBuild" DependsOnTargets="GenSerializationAssembly" />
+</Project>

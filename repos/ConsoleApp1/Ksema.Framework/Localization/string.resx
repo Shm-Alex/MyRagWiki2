@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Documentation.Loop" xml:space="preserve">
+    <value>Loop detected: </value>
+  </data>
+  <data name="Framework.Localization.Culture" xml:space="preserve">
+    <value>Gets default localization culture</value>
+  </data>
+  <data name="Framework.Localization.Doc" xml:space="preserve">
+    <value>Localization functions</value>
+  </data>
+  <data name="Framework.Localization.Localize" xml:space="preserve">
+    <value>Localizes string using default settings</value>
+  </data>
+  <data name="Framework.Localization.LocalizeWithError" xml:space="preserve">
+    <value>Localizes string, return specified text if no localization found</value>
+  </data>
+  <data name="Framework.Localization.LocalizeWithErrorAndCulture" xml:space="preserve">
+    <value>Localizes string using specified culture, returns specified text if no localization found</value>
+  </data>
+  <data name="Framework.Macro.Cantregister" xml:space="preserve">
+    <value>Can't register macro {0}</value>
+  </data>
+  <data name="Framework.Macro.ConstSyntax" xml:space="preserve">
+    <value>Syntax: &amp;const(...)</value>
+  </data>
+  <data name="Framework.Macro.Desc" xml:space="preserve">
+    <value>Starts with prefix '{0}'</value>
+  </data>
+  <data name="Framework.Macro.Message" xml:space="preserve">
+    <value>Syntax error after '{0}' (position {1}) in {2}</value>
+  </data>
+  <data name="Framework.Macro.Name" xml:space="preserve">
+    <value>MacroSubstitution</value>
+  </data>
+  <data name="Framework.Macro.NoBracket" xml:space="preserve">
+    <value>Closing bracket not found in {0}</value>
+  </data>
+  <data name="Framework.Macro.NoClass" xml:space="preserve">
+    <value>Class {0} not found</value>
+  </data>
+  <data name="Framework.Macro.NoDelimiter" xml:space="preserve">
+    <value>Can't find expression delimiter</value>
+  </data>
+  <data name="Framework.Macro.ParseError" xml:space="preserve">
+    <value>Error parsing macro string: {0}</value>
+  </data>
+  <data name="Framework.Macro.PrefixError" xml:space="preserve">
+    <value>Invalid macro prefix : {0}</value>
+  </data>
+  <data name="Framework.Macro.ReturnValue" xml:space="preserve">
+    <value>Returns '{0}'</value>
+  </data>
+  <data name="Framework.Macro.Standard" xml:space="preserve">
+    <value>Standard macro</value>
+  </data>
+  <data name="Framework.Macro.StandardSyntax" xml:space="preserve">
+    <value>Syntax: &amp;&lt;standart macro&gt;;</value>
+  </data>
+  <data name="Framework.Macro.Usage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Framework.Macro.User" xml:space="preserve">
+    <value>User macro</value>
+  </data>
+  <data name="Framework.Macro.WrongParams" xml:space="preserve">
+    <value>Invalid parameters</value>
+  </data>
+  <data name="Framework.StandardMacro.Bool" xml:space="preserve">
+    <value>Converts string to boolean (true-false)</value>
+  </data>
+  <data name="Framework.StandardMacro.CommaSplit" xml:space="preserve">
+    <value>Split text by commas and returns array of the strings</value>
+  </data>
+  <data name="Framework.StandardMacro.DateTime" xml:space="preserve">
+    <value>Converts string to DateTime</value>
+  </data>
+  <data name="Framework.StandardMacro.Dbl" xml:space="preserve">
+    <value>Converts to Double value using russian culture and comma as the delimiter</value>
+  </data>
+  <data name="Framework.StandardMacro.Debug" xml:space="preserve">
+    <value>True if compiled in debug mode, otherwise false</value>
+  </data>
+  <data name="Framework.StandardMacro.Decimal" xml:space="preserve">
+    <value>Converts string to decimal</value>
+  </data>
+  <data name="Framework.StandardMacro.Doc" xml:space="preserve">
+    <value>Base (standard) functions</value>
+  </data>
+  <data name="Framework.StandardMacro.Double" xml:space="preserve">
+    <value>Converts string to double</value>
+  </data>
+  <data name="Framework.StandardMacro.False" xml:space="preserve">
+    <value>Return False</value>
+  </data>
+  <data name="Framework.StandardMacro.GetEnum" xml:space="preserve">
+    <value>Returns enumeration value by its string representation</value>
+  </data>
+  <data name="Framework.StandardMacro.If2" xml:space="preserve">
+    <value>Compares arguments, returns true if equal</value>
+  </data>
+  <data name="Framework.StandardMacro.If3" xml:space="preserve">
+    <value>If first parameter is true returns second parameter, otherwise third</value>
+  </data>
+  <data name="Framework.StandardMacro.If4" xml:space="preserve">
+    <value>Compares two first arguments, if equal returns third, otherwise forth</value>
+  </data>
+  <data name="Framework.StandardMacro.IfExact2" xml:space="preserve">
+    <value>Compares non-string values, returns true if equal</value>
+  </data>
+  <data name="Framework.StandardMacro.IfExact4" xml:space="preserve">
+    <value>Compares two first non-string arguments, returns third if equal, otherwise forth</value>
+  </data>
+  <data name="Framework.StandardMacro.IfNot" xml:space="preserve">
+    <value>Compares arguments, returns true if NOT equal</value>
+  </data>
+  <data name="Framework.StandardMacro.IfNotExact" xml:space="preserve">
+    <value>Compares non-string arguments, return true if NOT equal</value>
+  </data>
+  <data name="Framework.StandardMacro.InList" xml:space="preserve">
+    <value>Searches the list (starting from the second argument) for the first argument</value>
+  </data>
+  <data name="Framework.StandardMacro.Int" xml:space="preserve">
+    <value>Converts string to int</value>
+  </data>
+  <data name="Framework.StandardMacro.IsNotNull" xml:space="preserve">
+    <value>Test for not null</value>
+  </data>
+	<data name="Framework.StandardMacro.IsNotNullOrEmpty" xml:space="preserve">
+    <value>Test for not null or empty string</value>
+  </data>
+	<data name="Framework.StandardMacro.IsNull" xml:space="preserve">
+    <value>Tests for null</value>
+  </data>
+	<data name="Framework.StandardMacro.IsNullOrEmpty" xml:space="preserve">
+    <value>Tests for null or empty string</value>
+  </data>
+	<data name="Framework.StandardMacro.JoinList" xml:space="preserve">
+    <value>Joins two lists</value>
+  </data>
+  <data name="Framework.StandardMacro.List" xml:space="preserve">
+    <value>Returns array of integers from first to second arguments inclusive</value>
+  </data>
+	<data name="Framework.StandardMacro.Array" xml:space="preserve">
+    <value>Returns the array of the specified values</value>
+  </data>
+	<data name="Framework.StandardMacro.New" xml:space="preserve">
+    <value>Creates class by name and assembly</value>
+  </data>
+  <data name="Framework.StandardMacro.NewClass" xml:space="preserve">
+    <value>Creates class by name</value>
+  </data>
+  <data name="Framework.StandardMacro.Not" xml:space="preserve">
+    <value>Logical NOT</value>
+  </data>
+	<data name="Framework.StandardMacro.And" xml:space="preserve">
+    <value>Logical AND</value>
+  </data>
+	<data name="Framework.StandardMacro.Or" xml:space="preserve">
+    <value>Logical OR</value>
+  </data>
+	<data name="Framework.StandardMacro.Xor" xml:space="preserve">
+    <value>Logical XOR</value>
+  </data>
+	<data name="Framework.StandardMacro.NotInList" xml:space="preserve">
+    <value>Tests list (starting from the second argument) for NOT containing the first argument</value>
+  </data>
+  <data name="Framework.StandardMacro.Now" xml:space="preserve">
+    <value>Returns current date and time</value>
+  </data>
+  <data name="Framework.StandardMacro.Null" xml:space="preserve">
+    <value>Return NULL</value>
+  </data>
+  <data name="Framework.StandardMacro.Static" xml:space="preserve">
+    <value>Invokes static method from type and assembly names</value>
+  </data>
+  <data name="Framework.StandardMacro.StaticClass" xml:space="preserve">
+    <value>Invokes static method from type</value>
+  </data>
+  <data name="Framework.StandardMacro.Switch" xml:space="preserve">
+    <value>First argument is the key, then goes key-value pairs, looks for the key and returns corresponding value</value>
+  </data>
+  <data name="Framework.StandardMacro.True" xml:space="preserve">
+    <value>Return TRUE</value>
+  </data>
+  <data name="Framework.StandardMacro.TypeOf" xml:space="preserve">
+    <value>Returns type from class and assembly names</value>
+  </data>
+  <data name="Framework.StandardMacro.TypeOfClass" xml:space="preserve">
+    <value>Returns type from class name</value>
+  </data>
+	<data name="Framework.AccessControl.AccessDenied" xml:space="preserve">
+    <value>Access to method '{0}' denied</value>
+  </data>
+	<data name="Framework.AccessControl.NoAction" xml:space="preserve">
+    <value>Action '{0}' not found. Check code and database versions or try update models in DB.</value>
+  </data>
+	<data name="Framework.AccessControl.LoopDetected" xml:space="preserve">
+    <value>LOOP was detected in access actions mapping in sequence:
+{0}</value>
+  </data>
+	<data name="Framework.ActiveTemplateParser.Name" xml:space="preserve">
+    <value>Active text templates</value>
+  </data>
+	<data name="Framework.ActiveTemplateParser.Usage" xml:space="preserve">
+    <value><![CDATA[Allows usage of loops, references etc to produce output text with markup.
+Exsample:
+<t_group>Import.
+#Data.GetDefaultInfo()</t_group>]]></value>
+  </data>
+	<data name="Framework.TemplateReferenceBuilder.Name" xml:space="preserve">
+    <value><![CDATA[Reference]]></value>
+  </data>
+	<data name="Framework.TemplateReferenceBuilder.Usage" xml:space="preserve">
+    <value><![CDATA[Usage: <t_ref refid="id" recalc="true\false"/>
+Substitutes with corresponding template by its id.
+recalc - use stored result or recalculate on each call.
+Exsample:
+<t_group id="1">...</t_group>
+...
+<t_ref idref="1"/>]]></value>
+  </data>
+	<data name="Framework.TemplateGroupBuilder.Name" xml:space="preserve">
+    <value><![CDATA[Text and markup group]]></value>
+  </data>
+	<data name="Framework.TemplateGroupBuilder.Usage" xml:space="preserve">
+    <value><![CDATA[Usage: <t_group id="" name="">...</t_group>
+id - identifier to use in references,
+name - group name]]></value>
+  </data>
+	<data name="Framework.CommentTemplateGroupBuilder.Name" xml:space="preserve">
+    <value><![CDATA[Comment]]></value>
+  </data>
+	<data name="Framework.CommentTemplateGroupBuilder.Usage" xml:space="preserve">
+    <value><![CDATA[Usage: <t_comment>...</t_comment>
+Just a comment!]]></value>
+  </data>
+	<data name="Framework.ConditionTemplateGroupBuilder.Name" xml:space="preserve">
+    <value><![CDATA[Conditional logic]]></value>
+  </data>
+	<data name="Framework.ConditionTemplateGroupBuilder.Usage" xml:space="preserve">
+    <value><![CDATA[<t_if id="" Value="">...</t_if>
+If Value parsed to "true" the inner templated is written to the output
+<t_if Value="#Lib.True;">Always true and renders into result</t_if>]]></value>
+  </data>
+	<data name="Framework.ActiveTemplateGroupBuilder.Name" xml:space="preserve">
+    <value><![CDATA[Loop]]></value>
+  </data>
+	<data name="Framework.ActiveTemplateGroupBuilder.Usage" xml:space="preserve">
+    <value><![CDATA[<t_context id="" Value="" Always="" Pre="" Inner="" Post="">...</t_context>
+Always - write Pre and Post macros to the output independently of is the loop empty or not
+Value - value to enumerate (must produce IEnumerable)
+Pre - added to the output before loop execution
+Post - added to the output after loop execution 
+Inner - added to the output between each loop element
+Loop element can be accessed through the macro #ctx;
+Example:
+<t_context Value="#Lib.Foreach(1,9)" Pre="<text>" Post="</text>" Inner=", ">#ctx;</t_context>
+Will produce:
+<text>1, 2, 3, 4, 5, 6, 7, 8, 9</text>]]></value>
+  </data>
+	<!--<data name="Framework.TextTemplateBuilder.Name" xml:space="preserve">
+    <value><![CDATA[]]></value>
+  </data>
+	<data name="Framework.TextTemplateBuilder.Usage" xml:space="preserve">
+    <value><![CDATA[]]></value>
+  </data>-->
+	<data name="Framework.MacroTemplateBuilder.Name" xml:space="preserve">
+    <value><![CDATA[Macro (for backward compatibility)]]></value>
+  </data>
+	<data name="Framework.MacroTemplateBuilder.Usage" xml:space="preserve">
+    <value><![CDATA[Синтаксис: <t_macro Value="" Encode=""/>
+Value - macro expression
+Encode - true: macro may return only strings without markup
+         false: macro expression may return xml-markup
+Default Encode=true.]]></value>
+  </data>
+	<data name="Framework.XmlElementTemplateBuilder.Name" xml:space="preserve">
+    <value><![CDATA[Other markup]]></value>
+  </data>
+	<data name="Framework.XmlElementTemplateBuilder.Usage" xml:space="preserve">
+    <value><![CDATA[All other markup elements are just copied into output stream.
+Example: <t_group><a href="">link</a></t_group>
+Produces: <a href="">link</a>]]></value>
+  </data>
+</root>
